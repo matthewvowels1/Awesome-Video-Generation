@@ -1,10 +1,80 @@
 # Awesome-Video-Generation
-A curated list of awesome work (currently 145 papers) a on video generation and video representation learning, and related topics (such as RL and temporal causal inference).
+A curated list of awesome work (currently 190 papers) a on video generation and video representation learning, and related topics (such as RL and temporal causal inference).
 
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
+
+## 2020
+
+Variational recurrent models for solving partially observable control tasks.	Han, Doya, Tani	https://openreview.net/forum?id=r1lL4a4tDB
+
+Stochastic latent residual video prediction. 	Franceschi, Delasalles, Chen, Lamprier, Gallinari	https://arxiv.org/pdf/2002.09219.pdf	https://sites.google.com/view/srvp
+
+Disentangled speech embeddings using cross-modal self-supervision.	Nagrani, Chung, Albanie, Zisserman	https://arxiv.org/abs/2002.08742	
+
+TwoStreamVAM: improving motion modeling in video generation.	Sun, Xu, Saenko	https://arxiv.org/abs/1812.01037
+
+Variational hyper RNN for sequence modeling.	Deng, Cao, Chang, Sigal, Mori, Brubaker	https://arxiv.org/abs/2002.10501
+
+Exploring spatial-temporal multi-frequency analysis for high-fidelity and temporal-consistency video prediction.	Jin, Hu,Tang, Niu, Shi, Han, Li	https://arxiv.org/abs/2002.09905
+
+
 ## 2019
+
+First order motion model for image animation.	Siarohin, Lathuiliere, Tulyakov, Ricci, Sebe	https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation
+
+Point-to-point video generation. 	Wang, Cheng, Lin, Chen, Sun	https://arxiv.org/pdf/1904.02912.pdf
+
+Learning deep controllable and structured representations for image synthesis, structured prediction and beyond.	Yan	https://deepblue.lib.umich.edu/handle/2027.42/153334
+
+Decoupling feature extraction from policy learning: assessing benefits of state representation learning in goal based robotics.	Raffin, Hill, Traore, Lesort, Diaz-Rodriguez, Filliat	https://arxiv.org/abs/1901.08651
+
+
+Task-Conditioned variational autoencoders for learning movement primitives.	Noseworthy, Paul, Roy, Park, Roy	https://groups.csail.mit.edu/rrg/papers/noseworthy_corl_19.pdf
+
+Spatio-temporal alignments: optimal transport through space and time.	Janati, Cuturi, Gramfort	https://arxiv.org/pdf/1910.03860.pdf
+
+Action Genome: actions as composition of spatio-temporal scene graphs. 	Ji, Krishna, Fei-Fei, Niebles	https://arxiv.org/pdf/1912.06992.pdf
+
+Video-to-video translation for visual speech synthesis.	Doukas, Sharmanska, Zafeiriou	https://arxiv.org/pdf/1905.12043.pdf
+Predictive coding, variational autoencoders, and biological connections	Marino	https://openreview.net/pdf?id=SyeumQYUUH
+
+
+
+Single Headed Attention RNN: stop thinking with your head.	Merity	https://arxiv.org/pdf/1911.11423.pdf	
+
+Hamiltonian neural networks.	Greydanus, Dzamba, Yosinski	https://arxiv.org/pdf/1906.01563.pdf	https://github.com/greydanus/hamiltonian-nn
+
+Learning what you can do before doing anything.	Rybkin, Pertsch, Derpanis, Daniilidis, Jaegle	https://openreview.net/pdf?id=SylPMnR9Ym	https://daniilidis-group.github.io/learned_action_spaces
+
+Deep Lagrangian networks: using physics as model prior for deep learning.	Lutter, Ritter, Peters	https://arxiv.org/pdf/1907.04490.pdf	
+
+A general framework for structured learning of mechanical systems.	Gupta, Menda, Manchester, Kochenderfer	 https://arxiv.org/pdf/1902.08705.pdf	https://github.com/sisl/machamodlearn
+
+Learning predictive models from observation and interaction.	Schmeckpeper, Xie, Rybkin, Tian, Daniilidis, Levine, Finn	https://arxiv.org/pdf/1912.12773.pdf
+
+A multigrid method for efficiently training video models.	Wu, Girshick, He, Feichtenhofer, Krahenbuhl	https://arxiv.org/pdf/1912.00998.pdf	
+
+Deep variational Koopman models: inferring Koopman observations for uncertainty-aware dynamics modeling and control	. Morton, Witherden, Kochenderfer	https://arxiv.org/pdf/1902.09742.pdf	
+
+Symplectic ODE-NET: learning hamiltonian dynamics with control.	Zhong, Dey, Chakraborty	https://arxiv.org/pdf/1909.12077.pdf	
+
+Hamiltonian graph networks with ODE integrators.	Sanchez-Gonzalez, Bapst, Cranmer, Battaglia	https://arxiv.org/pdf/1909.12790.pdf	
+
+Neural ordinary differential equations. 	Chen, Rubanova, Bettencourt, Duvenaud	https://arxiv.org/pdf/1806.07366.pdf	https://github.com/rtqichen/torchdiffeq
+
+Variational autoencoder trajectory primitives and discrete latent codes.	Osa, Ikemoto	https://arxiv.org/pdf/1912.04063.pdf	
+
+Newton vs the machine: solving the chaotic three-body problem using deep neural networks.	Breen, Foley, Boekholt, Zwart	https://arxiv.org/pdf/1910.07291.pdf	
+
+Learning dynamical systems from partial observations.	Ayed, de Bezenac, Pajot, Brajard, Gallinari	https://arxiv.org/pdf/1902.11136.pdf	
+
+GP-VAE: deep probabilistic time series imputation.	Fortuin, Baranchuk, Ratsch, Mandt	https://arxiv.org/pdf/1907.04155.pdf	https://github.com/ratschlab/GP-VAE
+
+Ghost hunting in the nonlinear dynamic machine.	Butner, Munion, Baucom, Wong	https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0226572	
+
+Faster attend-infer-repeat with tractable probabilistic models.	Stelzner, Peharz, Kersting	 http://proceedings.mlr.press/v97/stelzner19a/stelzner19a.pdf	https://github/stelzner/supair
 
 Tree-structured recurrent switching linear dynamical systems for multi-scale modeling.	Nassar, Linderman, Bugallo, Park	https://arxiv.org/pdf/1811.12386.pdf
 
@@ -145,7 +215,18 @@ Spatio-temporal associative representation for video person re-identification.	W
 
 Object segmentation using pixel-wise adversarial loss.	Durall, Pfreundt, Kothe, Keuper	https://arxiv.org/pdf/1909.10341.pdf
 
+
+
+
+
 ## 2018
+
+
+Deep learning for universal linear embeddings of nonlinear dynamics.	Lusch, Kutz, Brunton	https://www.nature.com/articles/s41467-018-07210-0	
+
+Variational attention for sequence-to-sequence models.	Bahuleyan, Mou, Vechtomova, Poupart	https://arxiv.org/pdf/1712.08207.pdf	https://github.com/variational-attention/tf-var-attention
+
+Understanding image motion with group representations.	Jaegle, Phillips, Ippolito, Daniilidis	https://openreview.net/forum?id=SJLlmG-AZ	
 
 Relational neural expectation maximization: unsupervised discovery of objects and their interactions. 	van Steenkiste, Chang, Greff, Schmidhuber	https://arxiv.org/pdf/1802.10353.pdf	https://sites.google.com/view/r-nem-gifs https://github.com/sjoerdvansteenkiste/Relational-NEM
 
@@ -200,7 +281,19 @@ Graph networks as learnable physics engines for inference and control.	Sanchez-G
 
 Deep dynamical modeling and control of unsteady fluid flows.	Morton, Witherden, Jameson, Kochenderfer	https://arxiv.org/pdf/1805.07472.pdf	https://github.com/sisl/deep_flow_control
 
+
+Sequential attend, infer, repeat: generative modelling of moving objects.	Kosiorek, Kim, Posner, Teh	https://arxiv.org/pdf/1806.01794.pdf	 https://github.com/akosiorek/sqair https://www.youtube.com/watch?v=-IUNQgSLE0c&feature=youtu.be
+
+Learning to generate time-lapse videos using multi-stage dynamic generative adversarial networks.	Xiong, Luo, Ma, Liu, Luo	https://arxiv.org/pdf/1709.07592.pdf	
+
+
+Integrating accounts of behavioral and neuroimaging data using flexible recurrent neural network models.	Dezfouli, Morris, Ramos, Dayan, Balleine 	https://papers.nips.cc/paper/7677-integrated-accounts-of-behavioral-and-neuroimaging-data-using-flexible-recurrent-neural-network-models.pdf
+
 ## 2017
+
+Autoregressive attention for parallel sequence modeling.	Laird, Irvin	  https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2755456.pdf
+
+Physics informed deep learning: data-driven solutions of nonlinear partial differential equations. 	Raissi, Perdikaris, Karniadakis	https://arxiv.org/pdf/1711.10561.pdf	https://github.com/maziarraissi/PINNs
 
 Unsupervised real-time control through variational empowerment.	Karl, Soelch, Becker-Ehmck, Benbouzid, van de Smagt, Bayer	https://arxiv.org/pdf/1710.05101.pdf	https://github.com/tessavdheiden/Empowerment
 
@@ -242,7 +335,14 @@ A compositional object-based approach to learning physical dynamics.	Chang, Ullm
 
 Bayesian learning and inference in recurrent switching linear dynamical systems.	Linderman, Johnson, Miller, Adams, Blei, Paninski	http://proceedings.mlr.press/v54/linderman17a/linderman17a.pdf	https://github.com/slinderman/recurrent-slds
 
+SE3-Nets: learning rigid body motion using deep neural networks.	Byravan, Fox	https://arxiv.org/pdf/1606.02378.pdf
+
+
+
+
 ## 2016
+
+Dynamic filter networks.	De Brabandere, Jia, Tuytelaars, Gool	https://arxiv.org/pdf/1605.09673.pdf
 
 Dynamic movement primitives in latent space of time-dependent variational autoencoders. 	Chen, Karl, van der Smagt	https://ieeexplore.ieee.org/document/7803340
 
@@ -277,6 +377,11 @@ Sequential neural models with stochastic layers. 	Fraccaro, Sonderby, Paquet, Wi
 
 Learning visual predictive models of physics for playing billiards.	Fragkiadaki, Agrawal, Levine, Malik	https://arxiv.org/pdf/1511.07404.pdf
 
+Attend, infer, repeat: fast scene understanding with generative models.	Eslami, Heess, Weber, Tassa, Szepesvari, Kavukcuoglu, Hinton	https://arxiv.org/pdf/1603.08575.pdf	http://akosiorek.github.io/ml/2017/09/03/implementing-air.html https://github.com/akosiorek/attend_infer_repeat
+
+Synthesizing robotic handwriting motion by learning from human demonstrations.	Yin, Alves-Oliveira, Melo, Billard, Paiva	https://pdfs.semanticscholar.org/951e/14dbef0036fddbecb51f1577dd77c9cd2cf3.pdf?_ga=2.78226524.958697415.1583668154-397935340.1548854421
+
+
 ## 2015
 
 Learning stochastic recurrent networks.	Bayer, Osendorfer	https://arxiv.org/pdf/1411.7610.pdf	https://github.com/durner/STORN-keras
@@ -300,4 +405,9 @@ Activity Forecasting.  	Kitani, Ziebart, Bagnell, Hebert	http://www.cs.cmu.edu/~
 Information flows in causal networks. 	Ay, Polani	https://sfi-edu.s3.amazonaws.com/sfi-edu/production/uploads/sfi-com/dev/uploads/filer/45/5f/455fd460-b6b0-4008-9de1-825a5e2b9523/06-05-014.pdf
 
 ## 2002
+
 Slow feature analysis.	Wiskott, Sejnowski	http://www.cnbc.cmu.edu/~tai/readings/learning/wiskott_sejnowski_2002.pdf
+
+## n.d.
+
+Learning variational latent dynamics: towards model-based imitation and control.	Yin, Melo, Billard, Paiva	https://pdfs.semanticscholar.org/40af/a07f86a6f7c3ec2e4e02665073b1e19652bc.pdf
