@@ -1,11 +1,35 @@
 # Awesome-Video-Generation
-A curated list of awesome work (currently 190 papers) a on video generation and video representation learning, and related topics (such as RL and temporal causal inference).
+A curated list of awesome work (currently 206 papers) a on video generation and video representation learning, and related topics (such as RL).
 
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Imputer sequence modelling via imputation and dynamic programming.	Chan, Sharahia, Hinton, Norouzi, Jaitly	https://arxiv.org/abs/2002.08926
+
+Variational conditioning of deep recurrent networks for modeling complex motion dynamics.	Buckchash, Raman	https://ieeexplore.ieee.org/document/9055015?denied=
+
+Training of deep neural networks for the generation of dynamic movement primitives.	Pahic, Ridge, Gams, Morimoti, Ude	https://www.sciencedirect.com/science/article/pii/S0893608020301301
+
+PreCNet: next frame video prediction based on predictive coding.	Straka, Svoboda, Hoffmann	https://arxiv.org/pdf/2004.14878.pdf
+
+Dimensionality reduction of movement primitives in parameter space. 	Tosatto, Stadtmuller, Peters	https://arxiv.org/abs/2003.02634
+
+Disentangling physical dynamics from unknown factors for unsupervised video prediction. 	Guen, Thorne	https://arxiv.org/abs/2003.01460
+
+A real-robot dataset for assessing transferability of learned dynamics models. 	Agudelo-Espana, Zadaianchuk, Wenk, Garg, Akpo et al	https://www.is.mpg.de/uploads_file/attachment/attachment/589/ICRA20_1157_FI.pdf
+
+Hierarchical decomposition of nonlinear dynamics and control for system indentification and policy distillation.	Abdulsamad, Peters	https://arxiv.org/pdf/2005.01432.pdf
+
+Occlusion resistant learning of intuitive physics from videos.	Riochet, Sivic, Laptev, Dupoux	https://arxiv.org/pdf/2005.00069.pdf
+
+Scalable learning in altent state sequence models	Aicher	https://digital.lib.washington.edu/researchworks/bitstream/handle/1773/45550/Aicher_washington_0250E_21152.pdf?sequence=1
+
+How useful is self-supervised pretraining for visual tasks?	Newell, Deng	https://arxiv.org/pdf/2003.14323.pdf
+
+q-VAE for disentangled representation learning and latent dynamical systems	Koboyashi	https://arxiv.org/pdf/2003.01852.pdf
 
 Variational recurrent models for solving partially observable control tasks.	Han, Doya, Tani	https://openreview.net/forum?id=r1lL4a4tDB
 
@@ -21,6 +45,10 @@ Exploring spatial-temporal multi-frequency analysis for high-fidelity and tempor
 
 
 ## 2019
+
+Animating arbitrary objects via deep motion transfer.	Siarohin, Lathuiliere, Tulyakov, Ricci, Sebe	https://arxiv.org/abs/1812.08861
+
+Feedback recurrent autoencoder.	Yang, Sautiere, Ryu, Cohen	https://arxiv.org/abs/1911.04018
 
 First order motion model for image animation.	Siarohin, Lathuiliere, Tulyakov, Ricci, Sebe	https://papers.nips.cc/paper/8935-first-order-motion-model-for-image-animation
 
@@ -221,6 +249,9 @@ Object segmentation using pixel-wise adversarial loss.	Durall, Pfreundt, Kothe, 
 
 ## 2018
 
+The dreaming variational autoencoder for reinforcement learning environments. 	Andersen, Goodwin, Granmo	https://arxiv.org/pdf/1810.01112v1.pdf
+
+MT-VAE: Learning Motion Transformations to Generate Multimodal Human Dynamics.	Yan, Rastogi, Villegas, Sunkavalli, Shechtman, Hadap, Yumer, Lee	http://openaccess.thecvf.com/content_ECCV_2018/html/Xinchen_Yan_Generating_Multimodal_Human_ECCV_2018_paper.html
 
 Deep learning for universal linear embeddings of nonlinear dynamics.	Lusch, Kutz, Brunton	https://www.nature.com/articles/s41467-018-07210-0	
 
