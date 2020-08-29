@@ -1,11 +1,111 @@
 # Awesome-Video-Generation
-A curated list of awesome work (currently 206 papers) a on video generation and video representation learning, and related topics (such as RL).
+A curated list of awesome work (currently 257 papers) a on video generation and video representation learning, and related topics (such as RL). Feel free to contribute or email me if I've missed your paper off the list : ]
 
 
 They are ordered by year (new to old). I provide a link to the paper as well as to the github repo where available.
 
 
 ## 2020
+
+Disentangling multiple features in video sequences using Gaussian processes in variational autoencoders.	Bhagat, Uppal, Yin, Lim	https://arxiv.org/abs/2001.02408
+
+Generative adversarial networks for spatio-temporal data: a survey.	Gao, Xue, Shao, Zhao, Qin, Prabowo, Rahaman, Salim	https://arxiv.org/pdf/2008.08903.pdf
+
+Deep state-space generative model for correlated time-to-event predictions.	Xue, Zhou, Du, Dai, Xu, Zhang, Cui	https://dl.acm.org/doi/abs/10.1145/3394486.3403206
+
+Toward discriminating and synthesizing motion traces using deep probabilistic generative models.	Zhou, Liu, Zhang, Trajcevski	https://ieeexplore.ieee.org/abstract/document/9165954/
+
+Sample-efficient robot motion learning using Gaussian process latent variable models.	Delgado-Guerrero, Colome, Torras	http://www.iri.upc.edu/files/scidoc/2320-Sample-efficient-robot-motion-learning-using-Gaussian-process-latent-variable-models.pdf
+
+Sequence prediction using spectral RNNS	.     Wolter, Gall, Yao	  https://www.researchgate.net/profile/Moritz_Wolter2/publication/329705630_Sequence_Prediction_using_Spectral_RNNs/links/5f36b9d892851cd302f44a57/Sequence-Prediction-using-Spectral-RNNs.pdf
+
+Self-supervised video representation learning by pace prediction.	Wang, Joai, Liu	https://arxiv.org/pdf/2008.05861.pdf
+
+RhyRNN: Rhythmic RNN for recognizing events in long and complex videos.	Yu, Li, Li	http://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123550137.pdf
+
+4D forecasting: sequential forecasting of 100,000 points.	Weng, Wang, Levine, Kitani, Rhinehart	http://www.xinshuoweng.com/papers/SPF2_eccvw/camera_ready.pdf
+
+Multimodal deep generative models for trajectory prediction: a conditional variational autoencoder approach.	Ivanovic, Leung, Schmerling, Pavone	https://arxiv.org/pdf/2008.03880.pdf
+
+Memory-augmented dense predictive coding for video representation learning.	Han, Xie, Zisserman	https://arxiv.org/pdf/2008.01065.pdf
+
+SeCo: exploring sequence supervision for unsupervised representation learning.	Yao, Zhang, Qiu, Pan, Mei	https://arxiv.org/pdf/2008.00975.pdf
+
+PDE-driven spatiotemporal disentanglement.	Dona, Franceschi, Lamprier, Gallinari	https://arxiv.org/pdf/2008.01352.pdf
+
+Dynamics generalization via information bottleneck in deep reinforcement learning.	Lu, Lee, Abbeel, Tiomkin	https://arxiv.org/pdf/2008.00614.pdf
+
+Latent space roadmap for visual action planning.	Lippi, Poklukar, Welle, Varava, Yin, Marino, Kragic	https://rss2020vlrrm.github.io/papers/3_CameraReadySubmission_RSS_workshop_latent_space_roadmap.pdf
+
+Weakly-supervised learning of human dynamics.	Zell, Rosenhahn, Wandt	https://arxiv.org/pdf/2007.08969.pdf
+
+
+Deep variational Leunberger-type observer for stochastic video prediction.	Wang, Zhou, Yan, Yao, Liu, Ma, Lu	https://arxiv.org/pdf/2003.00835.pdf
+
+NewtonianVAE: proportional control and goal identification from pixels via physical latent spaces.	Jaques, Burke, Hospedales	https://arxiv.org/pdf/2006.01959.pdf
+
+Constrained variational autoencoder for improving EEG based speech recognition systems.	Krishna, Tran, Carnahan, Tewfik	https://arxiv.org/pdf/2006.02902.pdf
+
+Latent video transformer.	Rakhumov, Volkhonskiy	https://arxiv.org/pdf/2006.10704.pdf
+
+Beyond exploding and vanishing gradients: analysing RNN training using attractors and smoothness	.   Ribeiro, Tiels, Aguirre, Schon	   http://proceedings.mlr.press/v108/ribeiro20a/ribeiro20a.pdf
+
+Towards recurrent autoeregressive flow models	.   Mern, Morales, Kochenderfer	https://arxiv.org/pdf/2006.10096.pdf
+
+Learning to combine top-down and bottom-up signals in recurrent neural networks with attention over modules. 	Mittal, Lamb, Goyal, Voleti et al.	https://www.cs.colorado.edu/~mozer/Research/Selected%20Publications/reprints/Mittaletal2020.pdf
+
+Unmasking the inductive biases of unsupervised object representations for video sequences.	Weis, Chitta, Sharma et al.	https://arxiv.org/pdf/2006.07034.pdf
+
+G3AN: disentnagling appearance and motion for video generation.	Wang, Bilinski, Bermond, Dantcheva 	http://openaccess.thecvf.com/content_CVPR_2020/papers/Wang_G3AN_Disentangling_Appearance_and_Motion_for_Video_Generation_CVPR_2020_paper.pdf
+
+Learning dynamic relationships for 3D human motion prediction	. Cui, Sun, Yang	http://openaccess.thecvf.com/content_CVPR_2020/papers/Cui_Learning_Dynamic_Relationships_for_3D_Human_Motion_Prediction_CVPR_2020_paper.pdf
+
+Joint training of variational auto-encoder and latent energy-based model.	Han, Nijkamp, Zhou, Pang, Zhu, Wu	http://openaccess.thecvf.com/content_CVPR_2020/papers/Han_Joint_Training_of_Variational_Auto-Encoder_and_Latent_Energy-Based_Model_CVPR_2020_paper.pdf
+
+Learning invariant representations for reinforcement learning without reconstruction.	Zhang, McAllister, Calandra, Gal, Levine	https://arxiv.org/pdf/2006.10742.pdf
+
+Variational inference for sequential data with future likelihood estimates.	Kim, Jang, Yang, Kim	http://ailab.kaist.ac.kr/papers/pdfs/KJYK2020.pdf
+
+Video prediction via example guidance.	Xu, Xu, Ni, Yang, Darrell	https://arxiv.org/pdf/2007.01738.pdf
+
+Hierarchical path VAE-GAN: generating diverse videos from a single sample.	Gur, Benaim, Wolf	https://arxiv.org/pdf/2006.12226.pdf
+
+Dynamic facial expression generation on Hilbert Hypersphere with conditional Wasserstein Generative adversarial nets.	Otberdout, Daoudi, Kacem, Ballihi, Berretti	https://arxiv.org/abs/1907.10087
+
+HAF-SVG: hierarchical stochastic video generation with aligned features.	Lin, Yuan, Li	https://www.ijcai.org/Proceedings/2020/0138.pdf
+
+Improving generative imagination in object-centric world models.	Lin, Wu, Peri, Fu, Jiang, Ahn	https://proceedings.icml.cc/static/paper_files/icml/2020/4995-Paper.pdf
+
+Deep generative video compression with temporal autoregressive transforms.	Yang, Yang, Marino, Yang, Mandt	https://joelouismarino.github.io/files/papers/2020/seq_flows_compression/seq_flows_compression.pdf
+
+Spatially structured recurrent modules.	Rahaman, Goyal, Gondal, Wuthrich, Bauer, Sharma, Bengio, Scholkopf	https://arxiv.org/pdf/2007.06533.pdf
+
+Unsupervised object-centric video generation and decomposition in 3D.	Henderson, Lampert	https://arxiv.org/pdf/2007.06705.pdf
+
+Planning from images with deep latent gaussian process dynamics.	Bosch, Achterhold, Leal-Taixe, Stuckler	https://arxiv.org/pdf/2005.03770.pdf
+
+Planning to explore via self-supervised world models	. Sekar, Rybkin, Daniilidis, Abbeel, Hafner, Pathak	https://arxiv.org/pdf/2005.05960.pdf
+
+Mutual information maximization for robust plannable representations.	Ding, Clavera, Abbeel	https://arxiv.org/pdf/2005.08114.pdf
+
+Supervised contrastive learning. 	Khosla, Teterwak, Wang, Sarna	 https://arxiv.org/pdf/2004.11362.pdf
+
+Blind source extraction based on multi-channel variational autoencoder and x-vector-based speaker selection trained with data augmentation.	Gu, Liao, Lu	https://arxiv.org/pdf/2005.07976.pdf
+
+BiERU: bidirectional emotional recurrent unit for conversational sentiment analysis.	Li, Shao, Ji, Cambria	https://arxiv.org/pdf/2006.00492.pdf
+
+S3VAE: self-supervised sequential VAE for representation disentanglement and data generation.	Zhu, Min, Kadav, Graf,	https://arxiv.org/pdf/2005.11437.pdf
+
+Probably approximately correct vision-based planning using motion primitives. 	Veer, Majumdar	https://arxiv.org/abs/2002.12852
+
+MoVi: a large multipurpose motion and video dataset	.  Ghorbani, Mahdaviani, Thaler, Kording, Cook, Blohm, Troje	https://arxiv.org/abs/2003.01888
+
+Temporal convolutional attention-based network for sequence modeling.	Hao, Wang, Xia, Shen, Zhao	https://arxiv.org/abs/2002.12530
+
+Neuroevolution of self-interpretable agents.	Tang, Nguyen, Ha	https://arxiv.org/abs/2003.08165
+
+Attentional adversarial variational video generation via decomposing motion and content.	Talafha, Rekabdar, Ekenna, Mousas	https://ieeexplore.ieee.org/document/9031476
+
 
 Imputer sequence modelling via imputation and dynamic programming.	Chan, Sharahia, Hinton, Norouzi, Jaitly	https://arxiv.org/abs/2002.08926
 
@@ -45,6 +145,8 @@ Exploring spatial-temporal multi-frequency analysis for high-fidelity and tempor
 
 
 ## 2019
+
+Representing closed transformation paths in encoded network latent space.	Connor, Rozell	https://arxiv.org/pdf/1912.02644.pdf
 
 Animating arbitrary objects via deep motion transfer.	Siarohin, Lathuiliere, Tulyakov, Ricci, Sebe	https://arxiv.org/abs/1812.08861
 
@@ -372,6 +474,8 @@ SE3-Nets: learning rigid body motion using deep neural networks.	Byravan, Fox	ht
 
 
 ## 2016
+
+Beyond temporal pooling: recurrence and temporal convolutions for gesture recognition in video.	Pigou, van den Oord, Dieleman, Van Herreweghe, Dambre	https://arxiv.org/abs/1506.01911
 
 Dynamic filter networks.	De Brabandere, Jia, Tuytelaars, Gool	https://arxiv.org/pdf/1605.09673.pdf
 
